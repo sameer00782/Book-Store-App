@@ -4,6 +4,7 @@ import Course from '../components/course';
 import Footer from '../components/footer';
 import list from '../../src/list.json';
 
+
 function Courses() {
   return (
    <>

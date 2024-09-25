@@ -11,7 +11,17 @@ function signup() {
         handleSubmit,
         formState: { errors },
       } = useForm();
-      const onSubmit = (data) => console.log(data)
+      const onSubmit = (data) => {
+
+      const userInfo={
+        fullname:data.fullname,
+        email:data.email,
+        password:data.password,
+      }
+
+      axios.post("http://localhost:4001/user/signup")
+
+      };
 
   return (
    <>
@@ -31,10 +41,10 @@ function signup() {
         <span>Name</span>
         <br />
         <input type="text" placeholder='Enter your Fullname' className='w-80 px-3 py-1 rounded-full border outline-none bg-white'
-        {...register("name", { required: true })}
+        {...register("fullname", { required: true })}
         />
          <br />
-         {errors.name && <span className='text-sm text-red-500'>This field is required</span>}
+         {errors.fullname && <span className='text-sm text-red-500'>This field is required</span>}
      </div> 
 
      {/* {Email} */}
