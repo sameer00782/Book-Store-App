@@ -25,7 +25,7 @@ function banner() {
                             <input type="text" className="grow outline-none" placeholder="Email" />
                         </label>
                     </div>
-                        <button className="btn mt-6 px-6 btn-black rounded-full text-white hover:bg-slate-700 dark:bg-blue-600">Submit</button>
+                        <button className="btn mt-6 px-6 btn-black rounded-full text-white hover:bg-slate-700 dark:bg-blue-600">Get Started</button>
 
                 </div>
 
