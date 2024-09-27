@@ -45,7 +45,7 @@ import bcryptjs from "bcryptjs";
 
 export const login = async (req, res) => {
     try {
-        const { email, password } = req.body; // Fixed typo (changed paasword to password)
+        const { email, password } = req.body; 
         
         // Check if the user exists
         const user = await User.findOne({ email });

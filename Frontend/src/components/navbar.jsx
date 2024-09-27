@@ -39,9 +39,9 @@ function Navbar() {
     const navItems = (
         <>
             <li className='text-slate-600 dark:text-white'><a href='/'>Home</a></li>
-            <li className='text-slate-600 dark:text-white'><a>About</a></li>
-            <li className='text-slate-600 dark:text-white'><a href='/Course'>Course</a></li>
-            <li className='text-slate-600 dark:text-white'><a>Contact</a></li>
+            <li className='text-slate-600 dark:text-white'><a href='/About'>About</a></li>
+            <li className='text-slate-600 dark:text-white'><a href='/Course'>Books</a></li>
+            <li className='text-slate-600 dark:text-white'><a href='/Contact'>Contact</a></li>
         </>
     );
 

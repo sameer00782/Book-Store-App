@@ -62,7 +62,7 @@ function Signup() {
                                 <input
                                     type="text"
                                     placeholder='Enter your Fullname'
-                                    className='w-80 px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
+                                    className='w-full px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
                                     {...register("fullname", { required: true })}
                                 />
                                 {errors.fullname && <span className='text-sm text-red-500'>This field is required</span>}
@@ -74,7 +74,7 @@ function Signup() {
                                 <input
                                     type="email"
                                     placeholder='Enter your Email'
-                                    className='w-80 px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
+                                    className='w-full px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
                                     {...register("email", { required: true })}
                                 />
                                 {errors.email && <span className='text-sm text-red-500'>This field is required</span>}
@@ -86,7 +86,7 @@ function Signup() {
                                 <input
                                     type="text"
                                     placeholder='Enter your Password'
-                                    className='w-80 px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
+                                    className='w-full px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
                                     {...register("password", { required: true })}
                                 />
                                 {errors.password && <span className='text-sm text-red-500'>This field is required</span>}
@@ -101,7 +101,7 @@ function Signup() {
                                 >Login</button></p>
                             </div>
                         </form>
-                        {/* Moved outside of <p> */}
+                        
                         <Login />
                     </div>
                 </div>

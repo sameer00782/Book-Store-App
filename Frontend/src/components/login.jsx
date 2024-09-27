@@ -62,7 +62,7 @@ function Login() {
           <div className='mt-4 space-y-2'>
               <span>E-mail</span>
               <br />
-              <input type="email" placeholder='Enter your Email' className='w-80 px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
+              <input type="email" placeholder='Enter your Email' className='w-full px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
               {...register("email", { required: true })}
               />
               <br />
@@ -73,7 +73,7 @@ function Login() {
           <div className='mt-4 space-y-2'>
               <span>Password</span> 
               <br />
-              <input type="text" placeholder='Enter your Password' className='w-80 px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
+              <input type="text" placeholder='Enter your Password' className='w-full px-3 py-1 rounded-full border outline-none bg-white dark:text-black'
               {...register("password", { required: true })}
               />
               <br />
