@@ -23,5 +23,3 @@ Backend/.env
 *.sln
 *.sw?
 
-# .gitignore
-Backend/.env

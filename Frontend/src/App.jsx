@@ -7,7 +7,7 @@ import Signup from './components/Signup.jsx';
 import { Toaster } from 'react-hot-toast';
 import { useAuth } from './context/AuthProvider.jsx';
 import Contacts from './contacts/Contacts.jsx';
-import Abouts from './Abouts/abouts.jsx';
+import Abouts from './Abouts/Abouts.jsx';
 
 function App() {
 
