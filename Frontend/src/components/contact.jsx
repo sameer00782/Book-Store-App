@@ -5,7 +5,7 @@ function contact() {
     <>
     
     <div className='max-w-md w-full mx-auto px-6 py-3 bg-slate-100 rounded-600 rounded-lg shadow-md dark:bg-slate-800'>
-    <h2 className='text-3xl text-center text-blue-800 font-bold mb-6 dark:text-white'>Contact Us</h2>
+    <h2 className='text-3xl text-center text-slate-800 font-bold mb-6 dark:text-white'>Contact <span className='text-blue-800'>Us</span></h2>
     
     <form action="">
 

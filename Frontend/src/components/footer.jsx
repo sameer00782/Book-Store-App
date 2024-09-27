@@ -8,10 +8,10 @@ function footer() {
  <hr />
     <footer className="footer footer-center bg-white text-slate-600 rounded p-10 dark:bg-slate-900 dark:text-white">
   <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">Home</a>
-    <a className="link link-hover">About</a>
-    <a className="link link-hover">Courses</a>
-    <a className="link link-hover">Contact</a>
+    <a href='/' className="link link-hover">Home</a>
+    <a href='/About' className="link link-hover">About</a>
+    <a href='/Course' className="link link-hover">Courses</a>
+    <a href='/Contact' className="link link-hover">Contact</a>
   </nav>
   <nav>
     <div className="grid grid-flow-col gap-4">

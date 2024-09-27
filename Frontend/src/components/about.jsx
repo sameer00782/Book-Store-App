@@ -14,9 +14,9 @@ function AboutUs() {
         </div>
 
         <div className='w-full lg:w-1/2'>
-          <h1 className='text-4xl font-bold text-blue-800  dark:text-white mb-4'>About Us</h1>
+          <h1 className='text-4xl font-bold text-slate-800 dark:text-white mb-4'>About <span className='text-blue-800'>Us</span></h1>
           <p className='text-lg text-slate-600 dark:text-slate-300 mb-6 text-left'>
-            Welcome to <span className='font-semibold'>Our Book Store</span>, your go-to place for a diverse range of books. From fiction to textbooks, we have it all.
+            Welcome to <span className='font-semibold text-blue-800'>inkSpot</span>, your go-to place for a diverse range of books. From fiction to textbooks, we have it all.
           </p>
 
           <p className='text-lg text-slate-600 dark:text-slate-300 mb-6 text-left'>
