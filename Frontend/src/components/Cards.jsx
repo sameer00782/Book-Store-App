@@ -1,6 +1,6 @@
 import React from 'react';
 
-function cards({ item }) {
+function Cards({ item }) {
   return (
     <div className='py-10'>
       <div className="card bg-base-50 w-92 p-6 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
@@ -27,4 +27,4 @@ function cards({ item }) {
   );
 }
 
-export default cards;
+export default Cards;
