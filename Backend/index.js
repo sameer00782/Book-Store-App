@@ -2,19 +2,15 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
+
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
 const app = express();
-const allowedOrigins = ['https://book-store-app-frontend-9r1b.onrender.com']
 
 dotenv.config();
 
-app.use(cors({
-  origin: allowedOrigins,
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true
-}));
+app.use(cors({}));
 app.use(express.json());
 
 const PORT = process.env.PORT || 4001;
