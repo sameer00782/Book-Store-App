@@ -9,7 +9,7 @@ function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("https://book-store-app-backend-sand.vercel.app/book");
+        const res = await axios.get("https://book-store-app-backend-tawny.vercel.app//book");
         console.log(res.data);
         setBook(res.data); 
       } catch (error) {
