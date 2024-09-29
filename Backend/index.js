@@ -10,7 +10,10 @@ const app = express();
 
 dotenv.config();
 
-app.use(cors({}));
+app.use(cors({
+  origin: 'https://book-store-app-frontend-five.vercel.app', // Allow your frontend domain
+  credentials: true
+}));
 app.use(express.json());
 
 const PORT = process.env.PORT || 4001;
